@@ -50,6 +50,42 @@ equation_code
 
 ### Numbering
 
+I think that every equation or group of equations should be numbered (very handy whenever you or anyone who is correcting your work should point out something at a specific point). This translates to
 
+**Use**
+```
+\begin{equation}
+equation_code
+\end{equation}
+```
+**whenever possible.**
+
+If you need an equation that lasts more than one line I personally prefer the sub-enviroment `aligned` to the evironment `align` in order to keep only one number.
+
+**Use**
+```
+\begin{equation}
+\begin{aligned}
+equation_code_left_aligned1 & equation_code_right_aligned1 \\
+equation_code_left_aligned2 & equation_code_right_aligned2
+\end{aligned}
+\end{equation}
+```
+**Instead of**
+```
+\begin{align}
+equation_code_left_aligned1 & equation_code_right_aligned1 \\
+equation_code_left_aligned2 & equation_code_right_aligned2
+\end{align}
+```
+**And NEVER do**
+```
+\begin{equation}
+equation_code_left_aligned1 equation_code_right_aligned1
+\end{equation}
+\begin{equation}
+equation_code_left_aligned2 equation_code_right_aligned2
+\end{equation}
+```
 
 # Newlines
