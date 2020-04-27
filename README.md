@@ -107,9 +107,9 @@ from Equation \eqref{1:finalpoint} we conclude ...
 As a best practice, begin all your labels with your problem number, in this way the same label for different problems won't conflict.
 
 
-# Newlines
+## Newlines
 
-LaTeX sometimes might prevent you to go to a new line for many different reasons, and often that will raise an error.
+LaTeX sometimes might prevent you from going to a new line for many different reasons, and often that will raise an error.
 It is often the case that you might want to skip two lines instead of just one or to go to a newline after the beginning of a theorem or an exercise. You can use workarounds such as
 
 
