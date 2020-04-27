@@ -1,4 +1,4 @@
-## LaTeX Guidelines
+# LaTeX Guidelines
 
 Remember that whenever you see something like 
 
@@ -17,8 +17,16 @@ It is very useful to know that:
 
 Sometimes you could see a pdf even if there are errors. This does not mean that everything is fine!!!
 
-# Equations
+## Equations
 
+### Basic knowledge
+
+There are several **not equivalent** ways to write an equation in LaTeX:
+
+ * *inline equations*. Is when you place a single dollar signs at both ends, i.e. `$ equation code $`
+ 
+
+### Style Comments
 
 
 
