@@ -88,4 +88,22 @@ equation_code_left_aligned2 equation_code_right_aligned2
 \end{equation}
 ```
 
+Remember that the numbering is done automatically. If you need a reference to an equation, **don't** read the equation number in the pdf and reference it as plain text, as in
+```
+\begin{equation}
+equation_code
+\end{equation}
+from Equation (7) we conclude ...
+```
+This is a problem: whenever you or some of your coworkers will add a numbered equation before the one you are referencing, the numbering will be shifted.
+
+Instead, label the equation with `\label{}` and call the label whenever you need a reference to the equation with `\eqref{}`. For example:
+```
+\begin{equation}\label{1:finalpoint}
+equation_code
+\end{equation}
+from Equation \eqref{1:finalpoint} we conclude ...
+```
+As a best practice, begin all your labels with your problem number, in this way the same label for different problems won't conflict.
+
 # Newlines
