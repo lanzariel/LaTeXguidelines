@@ -5,7 +5,7 @@ Remember that whenever you see something like
 ![Overleaf Error](/OverError.png)
 
 
-It means that you did a mistake. You have to fix it before the submission. Click on it to have additional information!
+It means that you made a mistake. You have to fix it before the submission. Click on it to have additional information!
 For example, clicking on this specific error we get 
 
 ![Overleaf Error 1](/WrongNewline.png)
@@ -106,4 +106,24 @@ from Equation \eqref{1:finalpoint} we conclude ...
 ```
 As a best practice, begin all your labels with your problem number, in this way the same label for different problems won't conflict.
 
+
 # Newlines
+
+LaTeX sometimes might prevent you to go to a new line for many different reasons, and often that will raise an error.
+It is often the case that you might want to skip two lines instead of just one or to go to a newline after the beginning of a theorem or an exercise. You can use workarounds such as
+**good:**
+```
+\begin{exo} $ $\\
+my exercise
+\end{exo}
+```
+
+**wrong:**
+```
+\begin{exo}\\
+my exercise
+\end{exo}
+```
+
+Remember that Google and tex.stackexchange are your friends.
+For example see [Theorem environment - line break after label [duplicate]](https://tex.stackexchange.com/questions/37797/theorem-environment-line-break-after-label/37805)
