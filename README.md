@@ -23,10 +23,11 @@ Sometimes you could see a pdf even if there are errors. This does not mean that 
 
 There are several **not equivalent** ways to write an equation in LaTeX:
 
- * *inline equations*. Is when you place a single dollar signs at both ends, i.e. `$ equation code $`
- 
+ * *inline equations*. Is when you place a single dollar signs at both ends, i.e. `$ equation_code $`
+ * *not numbered equations* (which I discourage). Can be obtained in one of the following:
+    *  Double dollar sign, i.e.  `$$ equation_code $$`
 
-### Style Comments
+### Numbering
 
 
 
