@@ -163,6 +163,7 @@ log(c) +
 <img src="/BadDisplay.png">
 </p>
 and
+
 ```
 \begin{equation}
 V(k,K,s,z)=\max_{c,k'}
@@ -173,6 +174,7 @@ log(c) +
 \right ]
 \end{equation}
 ```
+
 <p align="center">
 <img src="/GoodDisplay.png">
 </p>
