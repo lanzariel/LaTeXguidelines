@@ -129,3 +129,47 @@ my exercise
 
 Remember that Google and tex.stackexchange are your friends.
 For example see [Theorem environment - line break after label [duplicate]](https://tex.stackexchange.com/questions/37797/theorem-environment-line-break-after-label/37805)
+
+## Other style tips
+
+Remember that there is a difference between the product of the tree variables `m`, `a` and `x` and the symbol used for the maximum, i.e. `\max`. In the same way, it is a best practice to write `\min`, `\argmax`, `\log` or `\cos` instead of `min`, `argmax`, `log` or `cos`.
+
+If the symbol you are trying to use is not a LaTeX command (for example Var, to indicate variance), you can use the command mathrm, i.e. `\mathrm{Var}`
+
+It might happen that you put between parenthesis some text that is displayed bigger than the parenthesis themselves (for example you might use `\sum` or `\int` or some fractions with `\frac{numerator}{denominator}`. To have the parenthesis automatically adjust, remember to use `\left` and `\right`. For example
+```
+(bigtext)
+```
+would become 
+```
+\left (
+bigtext
+\right )
+```
+
+Can you see the difference between
+```
+\begin{equation}
+V(k,K,s,z)=max_{c,k'}
+[
+log(c) + 
+\beta \sum_{s'} \sum_{z'}
+\pi_{z z' s s'} V(k',K', s', z')
+]
+\end{equation}
+```
+![BadDisplay](/BadDisplay.png)
+
+and
+```
+\begin{equation}
+V(k,K,s,z)=\max_{c,k'}
+    [
+     log(c) + 
+     \beta \sum_{s'} \sum_{z'}
+     \pi_{z z' s s'} V(k',K', s', z')
+    ]
+   \end{equation}
+```
+![GoodDisplay](/GoodDisplay.png)
+?
