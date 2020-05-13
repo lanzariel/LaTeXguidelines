@@ -168,7 +168,7 @@ and
 \begin{equation}
 V(k,K,s,z)=\max_{c,k'}
 \left [
-log(c) + 
+\log(c) + 
 \beta \sum_{s'} \sum_{z'}
 \pi_{z z' s s'} V(k',K', s', z')
 \right ]
