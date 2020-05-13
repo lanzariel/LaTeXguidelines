@@ -147,6 +147,7 @@ bigtext
 \right )
 ```
 
+### Example
 Can you see the difference between
 ```
 \begin{equation}
@@ -158,18 +159,21 @@ log(c) +
 ]
 \end{equation}
 ```
+<p align="center">
 ![BadDisplay](/BadDisplay.png)
-
+</p>
 and
 ```
 \begin{equation}
 V(k,K,s,z)=\max_{c,k'}
-    [
-     log(c) + 
-     \beta \sum_{s'} \sum_{z'}
-     \pi_{z z' s s'} V(k',K', s', z')
-    ]
-   \end{equation}
+\left [
+log(c) + 
+\beta \sum_{s'} \sum_{z'}
+\pi_{z z' s s'} V(k',K', s', z')
+\right ]
+\end{equation}
 ```
+<p align="center">
 ![GoodDisplay](/GoodDisplay.png)
+</p>
 ?
