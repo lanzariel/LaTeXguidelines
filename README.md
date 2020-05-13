@@ -160,7 +160,7 @@ log(c) +
 \end{equation}
 ```
 <p align="center">
-![BadDisplay](/BadDisplay.png)
+<img src="/BadDisplay.png">
 </p>
 and
 ```
