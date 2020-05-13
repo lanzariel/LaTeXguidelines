@@ -176,6 +176,6 @@ V(k,K,s,z)=\max_{c,k'}
 ```
 
 <p align="center">
-<img src="/GoodDisplay.png">
+<img src="/BetterDisplay.png">
 </p>
 ?
