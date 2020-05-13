@@ -174,6 +174,6 @@ log(c) +
 \end{equation}
 ```
 <p align="center">
-![GoodDisplay](/GoodDisplay.png)
+<img src="/GoodDisplay.png">
 </p>
 ?
